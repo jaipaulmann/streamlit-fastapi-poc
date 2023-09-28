@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "streamlit-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["jaipaulmann <71453042+jaipaulmann@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.27.0"
+fastapi = "^0.103.1"
+uvicorn = "^0.23.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
